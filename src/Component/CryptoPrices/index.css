@@ -1,0 +1,28 @@
+.crypto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .crypto-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .crypto-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .crypto-card p {
+    font-size: 20px;
+    color: #b0b0cf60;
+  }
+  .rescon{
+    background-color: rgba(9, 111, 201, 0.252);
+    border-radius: 20px;
+  }

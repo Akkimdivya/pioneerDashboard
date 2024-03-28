@@ -1,0 +1,47 @@
+.report-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: transparent;
+  }
+  
+  .report-title {
+    font-size: 28px;
+    color: #fff;
+  }
+  
+  .report-summary {
+    margin-top: 20px;
+  }
+  
+  .report-summary h3 {
+    font-size: 24px;
+    color:#4ea452;
+  }
+  
+  .report-summary p {
+    font-size: 16px;
+    color: #d2c8c8;
+  }
+  
+  .report-details {
+    margin-top: 20px;
+  }
+  
+  .report-details h3 {
+    font-size: 24px;
+    color: #4ea452;
+  }
+  
+  .report-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .report-details li {
+    font-size: 16px;
+    color: #d2c8c8;
+  }
+  

@@ -1,0 +1,73 @@
+/* Define colors */
+:root {
+    --primary-color: #4d70d0;
+    --secondary-color: #c17439;
+    --tertiary-color: #4ea452;
+    --quaternary-color: #a43c3c;
+  }
+  
+  /* Body styles */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0e0722eb; /* Set a light background color */
+    color: #f5f2f2; /* Set default text color */
+  }
+  
+  /* Dashboard container */
+  .dashboard-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Table styling */
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+   border: solid 1px;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: var(--primary-color); /* Set primary color as background for table headers */
+    color: #fbf8f8; /* Text color for table headers */
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #372da033;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #350ec47b;
+  }
+  .table tbody {
+    color: rgb(254, 250, 250);
+  }
+  
+  /* Loading and error messages */
+  .loading-message,
+  .error-message {
+    font-style: italic;
+    color: var(--quaternary-color); /* Set quaternary color for error messages */
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .table th,
+    .table td {
+      padding: 6px; /* Adjust padding for smaller screens */
+    }
+  }
+  tb{
+    color: #020202 !important;
+  }

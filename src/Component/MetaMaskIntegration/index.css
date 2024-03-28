@@ -1,0 +1,45 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .connect-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .disconnect-button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .connect-button:hover, .disconnect-button:hover {
+    background-color: #45a049;
+  }
+  
+  .success-message {
+    color: #4CAF50;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .error-message {
+    color: #f44336;
+    font-size: 1vw;
+    margin: 0;
+  }
+  

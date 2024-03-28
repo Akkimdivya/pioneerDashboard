@@ -1,0 +1,35 @@
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about-heading {
+    font-size: 24px;
+    color:#4ea452;
+  }
+  
+  .about-content {
+    font-size: 16px;
+    color: #fcf9f9;
+  }
+  
+  .dashboard-features {
+    margin-top: 20px;
+  }
+  
+  .dashboard-features h3 {
+    font-size: 20px;
+    color: #3c9c4f;
+  }
+  
+  .dashboard-features ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .dashboard-features li {
+    font-size: 16px;
+    color: #f5f4f4;
+    margin-bottom: 10px;
+  }
+  

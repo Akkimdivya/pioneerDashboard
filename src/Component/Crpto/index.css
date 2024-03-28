@@ -1,0 +1,29 @@
+.crypto-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .crypto-list {
+    margin-top: 20px;
+  }
+  
+  .crypto-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .crypto-item h3 {
+    font-size: 20px;
+    color: #e0d2d2;
+  }
+  
+  .crypto-item p {
+    font-size: 16px;
+    color: #dacdcd;
+  }
+  
